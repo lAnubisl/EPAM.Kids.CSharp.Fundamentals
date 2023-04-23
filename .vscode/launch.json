@@ -57,5 +57,16 @@
             "stopAtEntry": false,
             "console": "integratedTerminal"
         },
+        {
+            "name": "Run Lesson_07",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Lesson_07/bin/Debug/net7.0/Lesson_07.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
     ]
 }
